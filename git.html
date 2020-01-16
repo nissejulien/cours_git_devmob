@@ -53,8 +53,42 @@
 	Corriger les modification sur un ficihier (pas encore add):
 	<div class="cmd"> git checkout 'fichier'</div>
 
+	Supprime un add:
+	<div class="cmd"> git reset 'fichier'</div>
+	<div class="cmd"> git reset .</div>
+
+	Supprimer le dernier commit:
+	<div class="cmd">git reset HEAD^</div>
+
+	Supprimer les deux derniers commit :
+	<div class="cmd"> git reset HEAD ^^</div>
 
 
+
+
+
+	<h2>La notion de branche</h2>
+	<p>Une branche est une copie du projet , ELle permet de dév elopper en parralelle de nouvelles fonctionnalités.
+	Lorsqu'on considère lesnouveautés opérationnelle, on peut les rappatrier sur la version principale (master)</p>
+
+	Voir les branches:
+	<div class="cmd">git branch </div>
+
+	Crée une nouvelle branche:
+	<div class="cmd"> git branche 'nom'</div>
+
+	Se placer sur une branche :
+	<div class="cmd"> git checkout 'nom'</div>
+
+	voir les différences entre 2 branches:
+	<div class="cmd"> git diff 'nom'..  master</div>
+
+	Apporter les modif effectués sur une branche dans master(il faut etre sur master)
+	<div class="cmd">git checkout master</div>
+	<div class="cmd">git fetch.'nom</div>
+	<div class="warning">Le fetch va literallement remplacer master par la branche. Il s agit donc d une grosse modification dans le projet (ex:version 2</div>
+
+	<h2>Repertoire distant et Github</h2>
 </body> 	
 
 </html>
