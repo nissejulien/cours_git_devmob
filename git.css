@@ -7,3 +7,11 @@
 .cmd:before{
 	content: 'cmd>'
 }
+.warning{
+	padding: 5px;
+	color: red;
+	background: pink;
+	border: 1px solid:red;
+	border-radius: 3px;
+	margin: 10px;
+}

@@ -17,18 +17,41 @@
 
 	URL:https://git-scm.com/
 
-	<div class="cmd">git config --global user.email'juliennisse@gmail.com'</div>
-	<div class="cmd">git config --global user.name 'JulienNisse'</div>
+	<div class="cmd"> git config --global user.email'juliennisse@gmail.com'</div>
+	<div class="cmd"> git config --global user.name 'JulienNisse'</div>
 
 	<h2> Les commandes de base</h2>
 	Initialiser un projet:
-	<div class="cmd">git init</div>
+	<div class="cmd"> git init</div>
 
 	Voir le statut des fichiers
-	<div class="cmd">git status</div>
+	<div class="cmd"> git status</div>
 
 	Ajouter des Fichiers
-	<div class="cmd">git add'fichier'</div>
+	<div class="cmd"> git add'fichier'</div>
+	Ajouter tous les Fichier:
+	<div class="cmd"> git commit</div>
+
+	commit(enregistrer) les fichiers ajoutés 
+	<div class="cmd"> git commit </div>
+	<div class="warning">ATTENTION  Un commit necessite toujours un message</div>
+
+	commit avec message:
+	<div class="cmd"> git commit -m "message" </div>
+	commit avec add + message(fonctionne sur les fichiers déja add précédement ):
+	<div class="cmd"> git commit -a -m "message" </div>
+
+
+
+
+
+
+	<h2>Correction des fichiers</h2>
+	voir les différents commit:
+	<div class="cmd">git log</div>
+
+	Corriger les modification sur un ficihier (pas encore add):
+	<div class="cmd"> git checkout 'fichier'</div>
 
 
 
